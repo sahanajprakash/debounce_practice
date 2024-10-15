@@ -28,7 +28,7 @@ function debounce(cb, delay = 1000) {
     }
 }
 
-function throttle(cb, delay = 100) {
+function throttle(cb, delay = 1000) {
     let shouldWait = false
     let waitingArgs
     const timeoutFunc = () => {
